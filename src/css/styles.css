@@ -24,22 +24,27 @@ img {
   height: 100%;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
 .taskLink {
-  width: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   height: 40px;
-  text-align: center;
-  margin: 0 auto;
-  border: 1px solid;
-  margin-bottom: 16px;
-  border-radius: 8px;
-  border: none;
+  width: 360px;
   background-color: rgba(78, 117, 255, 1);
-  padding: 5px;
+  border-radius: 8px;
 }
-.taskLink a {
+
+.taskLink p {
   color: white;
-  text-decoration-line: none;
 }
+
 .gallery {
   display: flex;
   width: 1128px;
